@@ -6,11 +6,11 @@
 ![GCP](https://img.shields.io/badge/GCP-Cloud-4285F4.svg)
 
 ## 📌 Project Overview
-This repository contains a containerized, end-to-end data engineering pipeline. It is designed to automatically ingest, process, and load large datasets (such as the NYC Taxi Trip Data in `.parquet` and `.csv.gz` formats) into a cloud data warehouse using modern data engineering practices.
+This repository contains a containerized, end-to-end data engineering pipeline. It is designed to ingest automatically, process, and load large datasets (such as the NYC Taxi Trip Data in `.parquet` and `.csv.gz` formats) into a cloud data warehouse using modern data engineering practices.
 
 ## 🛠️ Tech Stack & Architecture
 * **Python**: Core logic for data ingestion and processing (`main.py`, `ingest_data.py`).
-* **Venv** Virtue machine used for updating slim-sized Python, downloading large data files across multiple platforms, seamlessly connecting data wrangling libraries within Python, and resolving package reference issues on local machines while using Pyarrow.
+* **Venv** Virtual machine used for updating slim-sized Python, downloading large data files across multiple platforms, seamlessly connecting data wrangling libraries within Python, and resolving package reference issues on local machines while using Pyarrow.
 * **Docker**: Containerization for reproducible environments and easy service orchestration (`docker-compose.yaml`).
 * **Terraform**: Infrastructure as Code (IaC) to provision cloud resources dynamically on Google Cloud Platform (GCP).
 * **Git**: Version control with strict rules to prevent credential leaks and large binary blobs.
