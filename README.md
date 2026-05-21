@@ -10,7 +10,8 @@ This repository contains a containerized, end-to-end data engineering pipeline. 
 
 ## 🛠️ Tech Stack & Architecture
 * **Python**: Core logic for data ingestion and processing (`main.py`, `ingest_data.py`).
-* **Docker & Docker Compose**: Containerization for reproducible environments and easy service orchestration (`docker-compose.yaml`).
+* **Venv** Virtue machine used for updating slim-sized Python, downloading large data files across multiple platforms, seamlessly connecting data wrangling libraries within Python, and resolving package reference issues on local machines while using Pyarrow.
+* **Docker**: Containerization for reproducible environments and easy service orchestration (`docker-compose.yaml`).
 * **Terraform**: Infrastructure as Code (IaC) to provision cloud resources dynamically on Google Cloud Platform (GCP).
 * **Git**: Version control with strict rules to prevent credential leaks and large binary blobs.
 
